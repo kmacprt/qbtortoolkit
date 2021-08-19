@@ -8,7 +8,7 @@ except:
         API_HASH = "f423cffca6b5b7247b31b5b0df61f48d"
         API_ID = 1733305
         BOT_TOKEN = "1596550006:AAEwQ59IhX0oRHav_eRve77mP5F9iwbQ9DE"
-        BASE_URL_OF_BOT = ""
+        BASE_URL_OF_BOT = "https://t.me/torleechpro_bot"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
