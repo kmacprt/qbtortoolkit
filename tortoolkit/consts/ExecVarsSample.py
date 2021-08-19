@@ -5,9 +5,9 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
+        API_HASH = "f423cffca6b5b7247b31b5b0df61f48d"
+        API_ID = 1733305
+        BOT_TOKEN = "1596550006:AAFdSnmaR_IK2VQwJzvzIULzX2yiSbJS7PE"
         BASE_URL_OF_BOT = ""
 
         # Edit the server port if you want to keep it default though.
@@ -15,10 +15,10 @@ except:
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = []
-        OWNER_ID = 0
+        OWNER_ID = 1156597097
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = "https://lkhitechmirror3.lkhitech8.workers.dev/0:"
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -30,13 +30,13 @@ except:
         FORCE_DOCUMENTS = False
 
         # Chracter to use as a completed progress 
-        COMPLETED_STR = "▰"
+        COMPLETED_STR = "🔶"
 
         # Chracter to use as a incomplete progress
-        REMAINING_STR = "▱"
+        REMAINING_STR = "🔷"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgres://mnhfokoqndfjex:eca8664e34df083f9fc3c2d3c1832662a0a7a1ffe54abe084217e418bc6ba82e@ec2-35-169-188-58.compute-1.amazonaws.com:5432/dpglja5irbr7e"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -56,13 +56,13 @@ except:
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "leech"
 
         # For vps set path here or you can use runtime too
-        RCLONE_CONFIG = False
+        RCLONE_CONFIG = True
         
         # Name of the RCLONE drive from the config
         DEF_RCLONE_DRIVE = ""
@@ -75,7 +75,7 @@ except:
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
-        BOT_CMD_POSTFIX = "" 
+        BOT_CMD_POSTFIX = "@torleechpro_bot" 
 
         # Time out for the status Delete.
         STATUS_DEL_TOUT = 20
